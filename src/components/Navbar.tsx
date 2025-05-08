@@ -40,13 +40,13 @@ const Navbar = () => {
             {/* Menu Button on the right */}
             <button onClick={toggleMenu} className="relative w-7 h-5 md:w-8 md:h-6 flex flex-col justify-between z-50 cursor-pointer">
               <span className={`block h-0.5 md:h-1 transition-all duration-300 ${
-                isMenuOpen ? 'w-6 rotate-45 translate-y-2 md:translate-y-2.5 bg-white' : 'w-5 bg-black'
+                isMenuOpen ? 'w-6 rotate-45 translate-y-2.5 translate-x-0.5 bg-white' : 'w-5 bg-black'
               }`}></span>
               <span className={`block h-0.5 md:h-1 transition-all duration-300 ${
-                isMenuOpen ? 'w-6 -rotate-45 -translate-y-0.5 md:-translate-y-1 bg-white' : 'w-7 bg-black'
+                isMenuOpen ? 'w-6 -rotate-45 -translate-y-0.5 translate-x-0.5 bg-white' : 'w-7 bg-black'
               }`}></span>
               <span className={`block h-0.5 md:h-1 transition-all duration-300 ${
-                isMenuOpen ? 'w-6 rotate-45 -translate-y-2 md:-translate-y-2.5 bg-white' : 'w-9 bg-black'
+                isMenuOpen ? 'w-6 rotate-45 -translate-y-2.5 translate-x-0.5 bg-white' : 'w-9 bg-black'
               }`}></span>
             </button>
           </>
