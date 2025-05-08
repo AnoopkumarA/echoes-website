@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const UniqueProcess = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [, setIsMobile] = useState(false);
 
   useEffect(() => {
     const checkIfMobile = () => {
