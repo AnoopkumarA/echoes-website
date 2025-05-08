@@ -46,7 +46,7 @@ const PhotoGallery = () => {
             <h2 className="font-montaga text-[2.4rem] font-semibold tracking-wide text-black text-center">
               PROJECT
             </h2>
-            <div className="h-[0.25rem] w-47 relative -top-8.5 bg-black mx-auto mt-2"></div>
+            <div className="h-[0.25rem] w-47 relative -top-9 bg-black mx-auto mt-2"></div>
           </div>
         )}
 
